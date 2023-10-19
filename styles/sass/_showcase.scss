@@ -1,0 +1,55 @@
+section#showcase {
+  .container {
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      // height: 210px;
+
+      h1 {
+        font-family: "Tinos";
+        font-size: 76px;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+
+        p {
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 40px;
+        }
+
+        .selection {
+          border-bottom: 1px solid $neutral-color;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+
+      button.main-btn {
+        align-self: end;
+      }
+    }
+
+    img {
+      padding-top: 65px;
+    }
+
+    h2 {
+      font-family: 'Tinos';
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-align: center;
+      padding-block: 100px;
+      border-bottom: 3px solid $secondary-color;
+    }
+  }
+}

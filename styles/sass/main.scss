@@ -1,0 +1,17 @@
+@import "variables";
+@import "utils";
+@import "reset";
+
+@import "header";
+@import "showcase";
+@import "collection";
+@import "selection";
+@import "footer";
+
+@import "responsive";
+
+body {
+    background-color: $main-color;
+    color: $secondary-color;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,59 @@
+section#collection {
+  .container {
+    border-bottom: 3px solid $neutral-color;
+    padding-bottom: 80px;
+    div.wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+
+      h3 {
+        font-family: "Tinos";
+        margin: 0;
+        font-size: 58px;
+        font-weight: 700;
+      }
+
+      div.text-wrapper {
+        display: flex;
+        flex-direction: column;
+        p {
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 30px;
+          color: $neutral-color;
+        }
+
+        p.view {
+          color: $secondary-color;
+          align-self: flex-end;
+        }
+      }
+    }
+    div.cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 40px;
+      padding-top: 80px;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        img {
+            padding-bottom: 30px;
+        }
+
+        p {
+            color: #c0c0c0;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+          }
+      }
+    }
+  }
+}

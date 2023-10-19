@@ -1,0 +1,13 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-btn {
+    all: unset;
+    padding: 16px 40px;
+    background-color: $main-color;
+    border: 2px solid $neutral-color;
+    border-radius: 49px;
+    cursor: pointer;
+}

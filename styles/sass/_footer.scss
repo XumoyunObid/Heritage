@@ -1,0 +1,60 @@
+footer#main-footer {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 3px solid $neutral-color;
+    padding-bottom: 80px;
+    margin-bottom: 50px;
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      img {
+        width: 180px;
+        height: 47px;
+      }
+
+      p {
+        color: #c0c0c0;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+      }
+
+      ul.social {
+        display: flex;
+        gap: 30px;
+      }
+    }
+
+    ul.footer-lists {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      li {
+        color: #c0c0c0;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px; 
+
+
+        input {
+            background-color: transparent;
+            border: none;
+            padding-bottom: 10px;
+            border-bottom: 2px solid $neutral-color;
+        }
+    }
+  }
+}
